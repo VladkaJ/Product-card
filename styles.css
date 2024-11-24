@@ -1,0 +1,105 @@
+:root {
+  --product-blue: #484889;
+  --product-white: #f3f2fc;
+  --product-red: #65081b;
+  --product-yellow: #dce09c;
+  --product-green: #074d08;
+  --product-grey: #93939f;
+}
+body {
+  font-family: "Roboto", Courier, sans-serif;
+}
+.product-title-container {
+  border: 1.5px solid var(--product-blue);
+  width: 250px;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  position: relative;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product-image {
+  height: 200px;
+  text-align: center;
+}
+.product-description {
+  font-size: 10px;
+}
+h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.bestseller-badge {
+  background-color: var(--product-red);
+  color: var(--product-white);
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 35px;
+}
+.best-market-price {
+  background-color: var(--product-yellow);
+  font-size: 18px;
+  border-radius: 0 5px 5px 0;
+  display: inline-block;
+  position: absolute;
+  top: 155px;
+  right: 30px;
+}
+.product-price {
+  font-size: 14px;
+  color: var(--product-blue);
+  font-weight: bold;
+  text-decoration: line-through;
+}
+.product-discount {
+  font-size: 16px;
+  color: var(--product-blue);
+  font-weight: bold;
+}
+.product-price-block {
+  background-color: #93939f;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+.product-stock-container {
+  font-size: 12px;
+  text-decoration: underline;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.add-to-cart-container {
+  font-size: 14px;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: var(--product-white);
+  padding: 1px;
+}
+.product-box-container {
+  font-size: 11px;
+  background-color: var(--product-blue);
+  line-height: 10px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+}
+.alzabox-image {
+  width: 20px;
+  height: auto;
+}
